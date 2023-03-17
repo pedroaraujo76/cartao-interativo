@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body {
+   background-image: url('/public/imagens/bg-main-desktop.png');
+   background-repeat: no-repeat;
+   font-family: 'Space Grotesk', sans-serif;
+   font-size: 18px;
+   overflow: hidden;
+   max-width: 100%;
+   height: auto;
+}
+
+.fundo-cartao { /* fundo da div */
+    display: flex;
+    width: 77%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.dados-cartao {
+    background-image: url('/public/imagens/bg-card-front.png');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 70%;
+    padding-right: 15%;
+}
+
+.cvc {
+    background-image: url('/public/imagens/bg-card-back.png');
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 30px;
+    margin-left: 120px;
+    width: 50%;
+    height: 70%;
+    padding-top: 93px;
+    padding-left: 350px;
+}
+
+.form {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.form input{ /* formulario */
+    display: block;
+    height: 35px;
+    border: 1px solid gray;
+    opacity: 0.5; 
+    border-radius: 5px;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.separador {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+}
+
+.text {
+    margin-bottom: 1px;
+    word-spacing: 28px;
+    font-size: 13px;
+}
+
+.inputs{
+    width: 40px;
+    margin-right: 5px;
+    height: 20px;
+}
+
+.bolas {
+    display: flex;
+    flex-direction: row;
+}
+
+.bola {
+    border-radius: 50%;
+    position: relative;
+}
+  
+.branca {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    top: 25px;
+    left: 20px;
+}
+
+.cinza {
+    width: 20px;
+    height: 20px;
+    top: 35px;
+    left: 35px;
+    border: 1px solid white;
+}
+
+.separacao {
+    margin-top: 110px;
+    margin-left: 25px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.button1 {
+    margin-top: 20px;
+    color: white;
+    width: 82%;
+    height: 40px;
+    border-radius: 6px;
+    background-color: hsl(278, 68%, 11%);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    max-width: 82%;
+    justify-content: space-between;
+}
+
+.text-principal {
+    letter-spacing: 1px;
+}
+
+.teste {
+    margin-left: 20px;
+}
+
+.cvc-separado {
+   width: 300%;
+}
+
+.number {
+    font-size: 30px;
+    font-weight: inherit;
+    margin-bottom: -2px;
+}
