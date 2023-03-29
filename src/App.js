@@ -1,9 +1,9 @@
-import Cartao from "./Componente";
+import Teste from "./Componente";
 
 function App() {
   return (
     <div className="App">
-      <Cartao />
+      <Teste />
     </div>
   );
 }
