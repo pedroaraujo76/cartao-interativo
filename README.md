@@ -1,7 +1,7 @@
 # Cartão de Crédito Interativo
 
 ## Descrição
-Projeto desenvolvido com intuito de fazer um site real para práticar minhas habilidades e ganhar experiência utilizando o frontendmentor.
+Projeto desenvolvido com intuito de fazer um site real para práticar minhas habilidades em React e ganhar experiência utilizando o FrontEnd Mentor.
 
 ### Link de produção: Finalizando....
 
